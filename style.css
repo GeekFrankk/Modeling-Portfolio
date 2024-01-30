@@ -1,0 +1,1273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+
+
+}
+
+
+
+
+.img2{
+  border: 3px solid #b0b0b0;
+}
+
+
+.img4{
+  border: 3px solid #b0b0b0;
+}
+
+.img3{
+  border: 3px solid #b0b0b0;
+}
+
+.img4{
+  border: 3px solid #b0b0b0;
+}
+.img5{
+  border: 3px solid #b0b0b0;
+}
+
+.img15{
+  border: 3px solid #b0b0b0;
+}
+
+.img6{
+  border: 3px solid #b0b0b0;
+}
+
+.img7{
+  border: 3px solid #b0b0b0;
+}
+
+.img8{
+  border: 3px solid #b0b0b0;
+}
+
+.img9{
+  border: 3px solid #b0b0b0;
+}
+
+.img10{
+  border: 3px solid #b0b0b0;
+}
+.img11{
+  border: 3px solid #b0b0b0;
+}
+.img12{
+  border: 3px solid #b0b0b0;
+}
+.img13{
+  border: 3px solid #b0b0b0;
+}
+.img14{
+  border: 3px solid #b0b0b0;
+}
+
+.img16{
+  border: 3px solid #b0b0b0;
+}
+.img17{
+  border: 3px solid #b0b0b0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+.img2{
+  border: 5px solid #b0b0b0;
+}
+
+
+.img4{
+  border: 5px solid #b0b0b0;
+}
+
+.img3{
+  border: 5px solid #b0b0b0;
+}
+
+.img4{
+  border: 5px solid #b0b0b0;
+}
+.img5{
+  border: 5px solid #b0b0b0;
+}
+
+.img15{
+  border: 5px solid #b0b0b0;
+}
+
+.img6{
+  border: 5px solid #b0b0b0;
+}
+
+.img7{
+  border: 5px solid #b0b0b0;
+}
+
+.img8{
+  border: 5px solid #b0b0b0;
+}
+
+.img9{
+  border: 5px solid #b0b0b0;
+}
+
+.img10{
+  border: 5px solid #b0b0b0;
+}
+.img11{
+  border: 5px solid #b0b0b0;
+}
+.img12{
+  border: 5px solid #b0b0b0;
+}
+.img13{
+  border: 5px solid #b0b0b0;
+}
+.img14{
+  border: 5px solid #b0b0b0;
+}
+}
+
+.img1 {
+  z-index: 1;
+}
+.img14 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1720px; left: 525px;
+  scale: 1.0;
+}
+
+.img13 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1720px; left:165px;
+  scale: 1.0;
+}
+
+.img12 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 640px; left:165px;
+  scale: 1.0;
+}
+
+.img10 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1180px; left:880px;
+  scale: 1.0;
+}
+
+.img6 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1180px; left:1235px;
+  scale: 1.0;
+}
+
+.img15 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1180px; left:525px;
+  scale: 1.0;
+}
+
+.img11 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 640px; left:1235px;
+  scale: 1.0;
+}
+.img3 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 100px; left:885px;
+  scale: 1.0;
+}
+
+.img8 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1180px; left:165px;
+  scale: 1.0;
+}
+
+.img7 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 640px; left:524px;
+  scale: 1.0;
+}
+
+.img5 {
+  position: absolute;
+  width: 40px;
+  height: 400px;
+  top: 100px; left:1240px;
+  scale: 1.0;
+}
+
+
+
+.img4 {
+  position: absolute;
+  width: 40px;
+  height: 400px;
+  top: 100px; left:515px;
+  scale: 1.0;
+}
+
+
+
+.img9 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 640px; left:880px;
+  scale: 1.0;
+}
+
+.img16{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1720px;
+  left: 880px;
+}
+
+.img17{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1720px;
+  left: 1240px;
+}
+
+
+
+
+.img2 {
+  position: absolute;
+  width: 40px;
+  height: 400px;
+  top: 100px; left: 165px;
+  scale: 1.0;
+}
+
+
+.img2 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img2:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.img16 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img16:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.img17 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img17:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.img3 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img3:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.img4 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 300px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img4:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.img5 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img5:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img15 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img15:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img6 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img6:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img7 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img7:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img8 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img8:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img9 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img9:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img10 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img10:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+.img11 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img11:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+.img12 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img12:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+.img13 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #fffafa;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img13:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+.img14 {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 280px; /* width of the image */
+  --c: #ffffff;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0009 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/5) solid #0009;
+  outline-offset: calc(var(--w)/-7.5 - 1.5*var(--s));
+  transition: .5s;
+  cursor: pointer;
+}
+.img14:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(50% - 2*var(--s));
+}
+
+
+
+/*  Buttons to socials */
+
+:root {
+  --bg-color:#081b29;
+  --second-bg-color: #112e42;
+  --text-color: #7b3b3b;
+  --main-color: #ffffff;
+}
+
+.body {
+  background: #000000;
+  color: #ededed
+}
+
+
+.header { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+
+
+home-sci{
+
+  position: absolute;
+  bottom: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+home-sci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  top: -780px; left:1700px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+home-sci a:hover{
+  color: #824040;
+}
+home-sci a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ffffff;
+  z-index: -1;
+  transition: .5s;
+}
+
+home-sci a:hover::before {
+  width: 100%;
+}
+
+home-imgHover {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 500px;
+  height: 100%;
+  background: transparent;
+  transition: 3s;
+}
+
+home-imgHover:hover{
+  background: #e6e6e6;
+  opacity: .8;
+}
+
+home-imgHover::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  animation: showRight 1s ease forwards;
+  animation-delay: 1s;
+  z-index: 2;
+
+}
+
+header { 
+  position: fixed;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  top: 0px;
+  left: 1000px;
+  z-index: 100;
+}
+
+
+
+.navbar a{
+font-size: 18px;
+color: #ffffff;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+color: #808080;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  opacity:0;
+  position: absolute;
+  background-color: #999999;
+  min-width:100px;
+  max-width:500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: 19px;
+  margin-top: 8px;
+  transition: opcaity 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+}
+
+
+/*KEYFRAMES ANIMATION*/ 
+@keyframes showRight{
+  100%{
+    width: 0;
+  }
+}
+
+.about-img1{
+  width:10px;
+  height:10px;
+}
+
+h1 {
+  position: absolute;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 1px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  align-items: center;
+  animation: typewriter 0.6s steps(73) 0.3s 1 normal both,
+    blinkTextCursor 2000ms infinite;
+  z-index: 100;
+  left: 165px;
+  top: 40px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .img3 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 360px; left:-25px;
+    scale: 0.6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img5 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 680px; left:-25px;
+    scale: 0.6;
+  }
+
+  @media screen and (max-width: 600px) {
+  .img16 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 4820px; left:-25px;
+    scale: 0.6;
+  }
+    @media screen and (max-width: 600px) {
+    .img17 {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      top: 4500px; left:-25px;
+      scale: 0.6;
+    }
+      
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .img2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50px; left:-25px;
+    scale: 0.6;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .img6 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 1320px; left:-25px;
+    scale: 0.6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img7 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 1640px; left:-25px;
+    scale: 0.6;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .img15 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 1960px; left:-25px;
+    scale: 0.6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img8 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 2280px; left:-25px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img9 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 2590px; left:-25px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img10 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 2900px; left:-25px;
+    scale: 0.6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img11 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 3220px; left:-25px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img12 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 3540px; left:-25px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img13 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 3860px; left:-25px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img14 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 4180px; left:-25px;
+    scale: 0.6;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .img4 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 1000px; left:-25px;
+    scale: 0.6;
+  }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+  .home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: -220px; left:160px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+
+
+.close {
+  position: absolute;
+  top: 15px; 
+  right: 15px;
+  color: #aaa;
+  font-size: 28px;
+}
+
+.close:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;  
+}
+
+@media screen and (max-width: 768px){
+
+  header { 
+    position: fixed;
+    top: 0%;
+    margin-top: 1 px;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+
+  @media screen and (max-width: 768px){
+.navbar a{
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+  transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #808080;
+}
+}
+
+
+
+@media screen and (max-width: 600px){
+  h1 {
+      left: 0;
+      line-height: 70px;
+      margin-top: 1 px;
+      position: absolute;
+      text-align: center;
+      top: 4%;
+      width: 100%;
+  }
+}
+
+
+/* Base */
+@media screen and (max-width: 600px){
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+}
+@media screen and (max-width: 768px){
+h1 {
+  position: absolute;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 1px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  align-items: center;
+  animation: typewriter 0.6s steps(73) 0.3s 1 normal both,
+    blinkTextCursor 2000ms infinite;
+}
+}
+@media screen and (max-width: 768px){
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+  }
+    @media screen and (max-width: 768px){
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+}
+}
+
+
+@media screen and (max-width: 600px){
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+  @media screen and (max-width: 600px){
+.dropdown-content {
+  opacity:0;
+  position: absolute;
+  background-color: #999999;
+  min-width: 100px;
+  max-width:20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: 19px;
+  margin-top: 8px;
+  transition: opcaity 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+}
+
+}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Daniel Fait </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <section>
+    <div class="center">
+      <h1 style="background-color:transparent; font-family:'Times New Roman', Times, serif" ;">DANIEL FAIT</h1>
+    </div> 
+  </section>
+
+
+  
+
+
+
+
+
+
+  <body style="background-image: url('https://wallpaperaccess.com/full/4218988.jpg');">
+
+    <script src="script.js"></script>
+
+
+
+
+
+    <!-- Buttons to socials-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+
+
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="active"><u>PORTFOLIO</u></a>
+        <a href="secondpg.html"><u>ABOUT</u></a>
+        <a href="Third.html"><u>COLLABS</u></a>
+        
+        <div class="dropdown">
+          <a href="#"><u>CONTACT</u></a>
+
+          <div class="dropdown-content">
+            
+            <a href="https://www.instagram.com/danielfait__?igsh=MXh6NjJmcXowdXRhMA=="> <FONT COLOR="Black"><u>Instagram</u></a>
+            <a href="https://www.tiktok.com/@danielfait__?_t=8imvAXtpcK3&_r=1 "><FONT COLOR="Black"><u>TikTok</u></a>
+            <a href="mailto:email@example.com"><FONT COLOR="Black"><u>Email</u></a>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <style>
+      /* Modal styles */
+
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 180px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 1);
+
+      }
+
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 100%;
+        max-width: 430px;
+      }
+
+      /* Close button */
+
+      #close {
+        position: absolute;
+        top: 110px;
+        right: 4px;
+        color: #f1f1f1;
+        font-size: 60px;
+        font-weight: bold;
+      }
+
+      #close:hover,
+      #close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+
+
+
+
+    <img src="Daniel 8.jpg.jpg" alt="Image 1" class="img5" id="img1">
+    <img src="Daniel 20.jpg" alt="Image 2" class="img2" id="img2">
+    <img src="Daniel.jpg.jpg " alt="Image 3" class="img3" id="img3">
+    <img src="Daniel 23.jpg" alt="Image 4" class="img4" id="img4">
+    <img src="Daniel 21.jpg" alt="Image 11" class="img11" id="img11">
+    <img src="Daniel 12.jpg" alt="Image 9" class="img9" id="img9">
+    <img src="Daniel 9.jpg.jpg" alt="Image 7" class="img7" id="img7">
+    <img src="Daniel 1.jpg.jpg" alt="Image 8" class="img8" id="img8">
+    <img src="Fait.jpg.jpg" alt="Image 5" class="img15" id="img5">
+    <img src="Daniel 4.jpg.jpg" alt="Image 6" class="img6" id="img6">
+    <img src="Daniel 19.jpg" alt="Image 10" class="img10" id="img10">
+    <img src="Daniel 15.jpg" alt="Image 12" class="img12" id="img12">
+    <img src="Daniel 11.jpg" alt="Image 13" class="img13" id="img13">
+    <img src="Daniel 16.jpg" alt="Image 14" class="img14" id="img14">
+    <img src="Daniel 18.jpg" alt="Image 16" class="img16" id="img16">
+    <img src="Daniel 3.jpg.jpg" alt="Image 17" class="img17" id="img17">
+    
+    <!-- Reusable modal -->
+    <div id="imgModal" class="modal">
+      <span id="close">&times;</span>
+      <img id="modalImg" class="modal-content">
+    </div>
+
+
+
+    <script>
+
+
+      let modal = document.getElementById('imgModal');
+      let modalImg = document.getElementById('modalImg');
+      let close = document.getElementById('close');
+
+      // Click handlers for each image
+      let img1 = document.getElementById('img1');
+      let img2 = document.getElementById('img2');
+      let img3 = document.getElementById('img3');
+      let img4 = document.getElementById('img4');
+      let img5 = document.getElementById('img5');
+      let img6 = document.getElementById('img6');
+      let img7 = document.getElementById('img7');
+      let img8 = document.getElementById('img8');
+      let img9 = document.getElementById('img9');
+      let img10 = document.getElementById('img10');
+      let img11 = document.getElementById('img11');
+      let img12 = document.getElementById('img12');
+      let img13 = document.getElementById('img13');
+      let img14 = document.getElementById('img14');
+      let img16 = document.getElementById('img16');
+      let img17 = document.getElementById('img17');
+
+      img1.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      img2.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      img3.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      img4.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      img5.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      img6.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img7.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      img8.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img9.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img10.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img11.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img12.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img13.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img14.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img16.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+      img17.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+
+      close.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
