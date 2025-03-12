@@ -41,6 +41,38 @@ header {
 }
 
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Default - 1 column (Mobile) */
+.item {
+    width: 100%;
+}
+
+/* Tablets (2 columns) */
+@media (min-width: 600px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Laptops (3 columns) */
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Desktops (4 columns) */
+@media (min-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 
 .navbar a{
