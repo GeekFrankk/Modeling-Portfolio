@@ -61,55 +61,16 @@
       </nav>
     </header>
 
-    <style>
-      /* Modal styles */
-
-      .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        padding-top: 180px;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 1);
-
-      }
-
-      .modal-content {
-        margin: auto;
-        display: block;
-        width: 100%;
-        max-width: 430px;
-      }
-
-      /* Close button */
-
-      #close {
-        position: absolute;
-        top: 110px;
-        right: 4px;
-        color: #f1f1f1;
-        font-size: 60px;
-        font-weight: bold;
-      }
-
-      #close:hover,
-      #close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-      }
-    </style>
-
-
 <style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row by default */
     gap: 20px;
     padding: 20px;
   }
@@ -119,23 +80,46 @@
     height: auto;
     border-radius: 10px;
     cursor: pointer;
+    transition: transform 0.3s ease;
   }
 
+  .image-grid img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Responsive grid */
+  @media (max-width: 768px) {
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 images per row for smaller screens */
+      padding: 30px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-grid {
+      grid-template-columns: 1fr; /* 1 image per row for very small screens */
+      padding: 40px;
+    }
+  }
+
+  /* Modal styling */
   .modal {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
   }
 
   .modal-content {
-    max-width: 80%;
-    max-height: 80%;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
   }
 
@@ -144,9 +128,22 @@
     font-size: 30px;
     font-weight: bold;
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 10px;
+    right: 20px;
     cursor: pointer;
+  }
+
+  /* Add space for smaller screens */
+  @media (max-width: 768px) {
+    .modal {
+      top: 55%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .modal {
+      top: 50%;
+    }
   }
 </style>
 
