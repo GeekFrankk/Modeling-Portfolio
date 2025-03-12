@@ -1148,7 +1148,7 @@ h1 {
     position: fixed;
     top: 0%;
     margin-top: 1 px;
-    left: 0;
+    left: -10%;
     width: 100%;
     padding: 20px 10%;
     background: transparent;
