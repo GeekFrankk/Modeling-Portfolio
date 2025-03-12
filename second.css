@@ -26,6 +26,7 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: white;
 }
 
 .text2 {
@@ -35,15 +36,17 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: justify;
+  color: white; 
 }
 
 .text2 p {
   margin-bottom: 20px;
+  color: white; 
 }
 
 strong {
   font-weight: bold;
-  color: #f4f4f4;
+  color: #f4f4f4; 
 }
 
 @media (max-width: 768px) {
