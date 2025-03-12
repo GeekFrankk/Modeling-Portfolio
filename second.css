@@ -19,7 +19,7 @@
 @media (min-width: 1024px) {
   .img2 {
     left: 20%; /* Moves the image more to the left on larger screens */
-    transform: translateX(-80%); /* Remove translateX to adjust positioning */
+    transform: translateX(-65%); /* Remove translateX to adjust positioning */
   }
 }
 
