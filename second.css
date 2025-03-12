@@ -24,12 +24,14 @@
   width: 80%; /* Ensures the image scales down on smaller screens */
   max-width: 400px; /* Prevents the image from becoming too large */
   height: auto; /* Maintains the aspect ratio */
+  border: 5px solid white; /* Adds a white border around the image */
+  border-radius: 15px; /* Rounds the corners of the image */
 }
+
 
 @media (max-width: 768px) {
   .img2 {
     width: 90%; /* Makes the image a bit larger on smaller screens while still being responsive */
-    max-width: 350px; /* Adjust the max-width for smaller screens */
   }
 }
 
