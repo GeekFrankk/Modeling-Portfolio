@@ -1,143 +1,88 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="second.css" rel="stylesheet" type="text/css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="second.css" rel="stylesheet">
   <title>WORK</title>
+  <style>
+    body {
+      background-image: url('https://wallpaperaccess.com/full/4218988.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 50px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .text-section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2, h3 {
+      margin: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .navbar a.active, .navbar a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
-<body style="background-image: url('https://wallpaperaccess.com/full/4218988.jpg');">
-
-  <body>
-   <div class = "text3"> 
-   <div style="  position: absolute; left:170px; top:100px;">
-
-      <h2><FONT COLOR="White" >ABOUT ME </h2> 
-   </div>
-    </body>
-
-
-  
-  <body>
-
-    <div style="position:absolute; left:170px; top:470px;" >
-      <p>
-      <h3>
-        <font color="White"> The Merge </p>
-      </h3>
-    </div>
-    <div style="position:absolute; left:100px; top:1015px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ ITSSS.SUEE </p>
-      </h3>
-    </div>
-    <div style="position:absolute; left:110px; top:1550px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ _.KSOS </p>
-      </h3>
-    </div>
-    <div style="position:absolute; left:145px; top:2090px;">
-      <p>
-      <h3>
-        <font color="White"> TELFAR GLOBAL </p>
-      </h3>
-    </div>
-    <div style="position:absolute; left:70px; top:2630px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ VSUALPHOTOS </p>
-      </h3>
-    </div>
-
-    <div style="position:absolute; left:90px; top:3180px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ JOSCLOUDS </p>
-      </h3>
-    </div>
-
-    <div style="position:absolute; left:100px; top:3730px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ DAVE_45O </p>
-      </h3>
-    </div>
-    
-    <div style="position:absolute; left:100px; top:4270px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ SAMDABID </p>
-      </h3>
-    </div>
-    
-    <div style="position:absolute; left:90px; top:4840px;">
-      <p>
-      <h3>
-        <font color="White"> FAIT.VIEW / @ TRAAPICANA </p>
-      </h3>
-    </div>
-
-
-
-
-  </body>
-
-
-
-
-<div class="container">
-  <img src="Daniel 24.jpg" style="top: 120px; left:-100px; height: 400px; width: 623px;" alt="Image 2" class="img2"
-    id="img2">
-  <!-- Reusable modal -->
-  <div id="imgModal" class="modal">
-    <img id="modalImg" class="modal-content">
-  </div>
-  <img src="Collab1.jpg" style="top: 480px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Collab2.jpg" style="top: 1020px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Daniel 23.jpg" style="top: 1560px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Collab3.jpg" style="top: 2100px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Collab4.jpg" style="top: 2645px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Collab5.jpg" style="top: 3200px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Collab6.jpg" style="top: 3740px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-  <img src="Collab7.jpg" style="top: 4290px; left:-45px; height: 600px; width: 520px;" alt="Image 2" class="img2"
-    id="img2">
-</div>
-  
-  
-  
-  <header class="header">
+<body>
+  <header>
     <nav class="navbar">
-      <a href="index.html"><u>PORTFOLIO</u></a>
-      <a href="secondpg.html"><u>ABOUT</u></a>
-      <a href="#" class="active""><u>COLLABS</u></a>
-
-        <div class=" dropdown">
-        <a href="#"><u>CONTACT</u></a>
-
-        <div class="dropdown-content">
-
-          <a href="https://www.instagram.com/danielfait__?igsh=MXh6NjJmcXowdXRhMA==">
-            <FONT COLOR="Black"><u>Instagram</u>
-          </a>
-          <a href="https://www.tiktok.com/@danielfait__?_t=8imvAXtpcK3&_r=1 ">
-            <FONT COLOR="Black"><u>TikTok</u>
-          </a>
-          <a href="mailto:email@example.com">
-            <FONT COLOR="Black"><u>Email</u>
-          </a>
-
-        </div>
-        </div>
+      <a href="index.html">PORTFOLIO</a>
+      <a href="secondpg.html">ABOUT</a>
+      <a href="#" class="active">COLLABS</a>
+      <a href="#">CONTACT</a>
     </nav>
   </header>
+
+  <div class="text-section">
+    <h2>ABOUT ME</h2>
+  </div>
+
+  <div class="gallery">
+    <img src="Daniel 24.jpg" alt="Image 1">
+    <img src="Collab1.jpg" alt="Image 2">
+    <img src="Collab2.jpg" alt="Image 3">
+    <img src="Daniel 23.jpg" alt="Image 4">
+    <img src="Collab3.jpg" alt="Image 5">
+    <img src="Collab4.jpg" alt="Image 6">
+    <img src="Collab5.jpg" alt="Image 7">
+    <img src="Collab6.jpg" alt="Image 8">
+    <img src="Collab7.jpg" alt="Image 9">
+  </div>
+</body>
+
+</html>
