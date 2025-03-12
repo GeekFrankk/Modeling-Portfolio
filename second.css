@@ -29,14 +29,6 @@
   color: white;
   text-align: center;
 }
-.text1 {
-  display: flex;
-  justify-content: center; /* Horizontally centers the content */
-  align-items: center; /* Vertically centers the content */
-  height: 100vh; /* Ensure the div takes full height of the viewport */
-  text-align: center;
-}
-
 
 .text2 {
   font-family: 'Georgia', serif;
