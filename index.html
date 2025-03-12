@@ -74,60 +74,7 @@
     padding: 100px;
   }
 
-  .image-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-
-  .image-grid img:hover {
-    transform: scale(1.05);
-  }
-
-  /* Responsive grid */
-  @media (max-width: 768px) {
-    .image-grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 images per row for smaller screens */
-      padding: 30px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .image-grid {
-      grid-template-columns: 1fr; /* 1 image per row for very small screens */
-      padding: 40px;
-    }
-  }
-
-  /* Modal styling */
-  .modal {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    z-index: 1000;
-  }
-
-  /* Add space for smaller screens */
-  @media (max-width: 768px) {
-    .modal {
-      top: 150%;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .modal {
-      top: 150%;
-    }
-  }
+ 
 </style>
 
 <div class="image-grid">
