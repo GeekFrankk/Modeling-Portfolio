@@ -18,8 +18,8 @@
 
 @media (min-width: 1024px) {
   .img2 {
-    left: 10%; /* Move the image closer to the left side on larger screens */
-    transform: translateX(0); /* Remove translateX for exact left positioning */
+    left: -10%; /* Move the image closer to the left side on larger screens */
+    transform: translateX(-40px); /* Remove translateX for exact left positioning */
   }
 }
 
