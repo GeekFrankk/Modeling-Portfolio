@@ -8,8 +8,8 @@
 .img2 {
   position: absolute;
   top: 20px;
-  left: 50%; /* Centers the image horizontally by default */
-  transform: translateX(50%); /* Adjust for perfect centering */
+  left: 70%; /* Centers the image horizontally by default */
+  transform: translateX(70%); /* Adjust for perfect centering */
   width: 80%; /* Makes the image responsive by using a percentage */
   max-width: 620px; /* Maximum width for large screens */
   height: auto; /* Maintain aspect ratio */
