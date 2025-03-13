@@ -9,7 +9,7 @@
   position: absolute;
   top: 20px;
   left: 50%; /* Centers the image horizontally by default */
-  transform: translateX(-90%); /* Adjust for perfect centering */
+  transform: translateX(80%); /* Adjust for perfect centering */
   width: 80%; /* Makes the image responsive by using a percentage */
   max-width: 620px; /* Maximum width for large screens */
   height: auto; /* Maintain aspect ratio */
@@ -29,7 +29,7 @@
     max-width: 500px; /* Prevents the image from becoming too large on small screens */
     scale: 0.6; /* Slightly reduce the scale on small screens */
     left: 50%; /* Centers the image horizontally for small screens */
-    transform: translateX(-50%); /* Adjust for perfect centering */
+    transform: translateX(50%); /* Adjust for perfect centering */
   }
 }
 
